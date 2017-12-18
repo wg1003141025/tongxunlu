@@ -1,5 +1,5 @@
 window.onload = function () {
-    /*let arr = [
+    let arr = [
         {id:1,name:'大哈哈',tell:'123456789',pinyin:'dahaha'},
         {id:2,name:'二哈哈',tell:'123456789',pinyin:'erhaha'},
         {id:3,name:'三哈哈',tell:'123456789',pinyin:'sanhaha'},
@@ -22,7 +22,7 @@ window.onload = function () {
         {id:7,name:'人哈哈',tell:'123456789',pinyin:'renhaha'}
 
     ]
-    localStorage.setItem('contact',JSON.stringify(arr));*/
+    localStorage.setItem('contact',JSON.stringify(arr));
     let dl = document.querySelector('dl');
     dl.innerHTML = '';
     let ul = document.querySelector('ul');
